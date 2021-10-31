@@ -4,7 +4,7 @@ function validate(){
 var username = document.getElementById("username").value;
 if ( username == "Queen's Gambit" || username=="The Queen's Gambit"){
 alert ("CONGARTS");
-window.location = "/end"; // Redirecting to other page.
+window.location = "/end.html"; // Redirecting to other page.
 return false;
 }
 else{

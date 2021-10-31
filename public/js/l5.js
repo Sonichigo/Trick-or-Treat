@@ -3,7 +3,7 @@ var attempt = 5; // Variable to count number of attempts.
 function validate(){
 var username = document.getElementById("username").value;
 if ( username == "4" || username == "four" || username == "FOUR"){
-window.location = "/beta"; // Redirecting to other page.
+window.location = "/beta.html"; // Redirecting to other page.
 return false;
 }
 else{

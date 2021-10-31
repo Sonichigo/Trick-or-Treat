@@ -3,7 +3,7 @@ var attempt = 5; // Variable to count number of attempts.
 function validate(){
 var username = document.getElementById("username").value;
 if ( username == "St Patrick Day" || username=="st patrick day"|| username=="St Patrick's Day"){
-window.location = "/alpha"; // Redirecting to other page.
+window.location = "/alpha.html"; // Redirecting to other page.
 return false;
 }
 else{
